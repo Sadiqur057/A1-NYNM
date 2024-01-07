@@ -112,6 +112,7 @@ body{
   gap: 40px;
   align-items: center;
   padding: 65.5px 126px;
+  height: 600px;
 }
 .party-content>h1{
   color: #FFF;
@@ -146,4 +147,35 @@ body{
   border-radius: 15px;
   color: #070211;
 
+}
+
+/* Event section styles */
+.event-section{
+  padding: 100px 0 110px 0;
+  margin-top: 120px;
+  font-family: Inter;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  border-radius: 8px;
+}
+.event-section p{
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; 
+}
+
+.event-section button{
+  padding: 16px 32px;
+  color: #fff;
+  border-radius: 8px;
+  background: #F00;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  margin-top: 48px;
 }
