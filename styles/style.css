@@ -35,7 +35,6 @@ body{
 
 .banner-content{
   padding: 177px 0;
-  margin: auto;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   border-radius: 16px;
   font-family: 'Merriweather', serif;
@@ -91,4 +90,62 @@ body{
 }
 .offer-content img{
   width: 100%;
+}
+
+
+.party-section{
+  background-image: url('/images/Vectorrr.png');
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-position: center;
+  margin-top: 50px ;
+  height: 600px;
+  margin-top: 120px;
+}
+
+.party-container{
+  font-family: 'Merriweather', serif;
+  margin: auto;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  padding: 65.5px 126px;
+}
+.party-content>h1{
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; 
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+
+.party-content p{
+  color: #ffffffcc;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 30px; 
+  margin-bottom: 48px;
+}
+.party-content a{
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 14px;
+  padding: 15px 18px;
+  text-decoration: none;
+}
+.party-content a:hover{
+  background-color: white;
+  border-radius: 15px;
+  color: #070211;
+
 }
