@@ -217,3 +217,14 @@ body{
 .best-offer-col .msg-greet{
   margin-bottom: 43px;
 }
+.portfolio-desc{
+  width: 68%;
+}
+.portfolio-img-row{
+  display: flex;
+  gap: 24px ;
+  margin-bottom: 24px;
+}
+.portfolio-img-row img{
+  width: 100%;
+}
