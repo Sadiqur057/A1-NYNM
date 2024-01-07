@@ -7,18 +7,23 @@
   /* font-family: 'Inter', sans-serif;
   font-family: 'Merriweather', serif; */
 }
-
+/* shared styles */
 body{
   max-width: 1320px;
   width: 82.5%;
   margin: auto;
 }
-
-header{
-  font-family: 'Merriweather', serif;
-  
+.color-primary{
+  color: #070211;
 }
-.banner-container{
+.color-secondary{
+  color: #F00;
+}
+
+
+/* banner section styles*/
+
+.banner-section{
   background-image: url('/images/Banner\ Image.png');
   /* background-size: cover; */
   background-repeat: no-repeat;
@@ -27,22 +32,63 @@ header{
   margin-top: 50px ;
   height: 600px;
 }
+
 .banner-content{
   padding: 177px 0;
   margin: auto;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   border-radius: 16px;
+  font-family: 'Merriweather', serif;
 }
+
 .banner-content>p{
   color: #FFF;
   text-align: center;
   font-size: 32px;
   margin-bottom: 16px ;
 }
+
 .banner-content h1{
   color: #FFF;
   text-align: center;
   font-size: 72px;
   font-weight: 900;
   line-height: 95px; 
+}
+
+/* offer section styles */
+.offer-section{
+  width: 60%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.offer-content{
+  font-family: 'Inter', sans-serif;
+}
+
+.offer-content>h1{
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.offer-content p{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.offer-content h2{
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.offer-content img{
+  width: 100%;
 }
