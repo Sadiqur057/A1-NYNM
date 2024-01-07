@@ -24,8 +24,7 @@ body{
 /* banner section styles*/
 
 .banner-section{
-  background-image: url('/images/Banner\ Image.png');
-  /* background-size: cover; */
+  background-image: url('../images/Banner-Image.png');
   background-repeat: no-repeat;
   border-radius: 16px;
   background-position: center;
@@ -94,8 +93,7 @@ body{
 
 
 .party-section{
-  background-image: url('/images/Vectorrr.png');
-  /* background-size: cover; */
+  background-image: url('../images/Vectorrr.png');
   background-repeat: no-repeat;
   border-radius: 16px;
   background-position: center;
