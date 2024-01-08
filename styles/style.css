@@ -4,11 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Inter', sans-serif;
-  font-family: 'Merriweather', serif; */
 }
+
 /* shared styles */
-main{
+main,header{
   max-width: 1320px;
   width: 82.5%;
   margin: auto;
@@ -19,7 +18,6 @@ main{
 .color-secondary{
   color: #F00;
 }
-
 .heading-highlight{
   font-size: 24px;
   font-weight: 500;
@@ -33,14 +31,14 @@ main{
   font-weight: 900;
   margin-bottom: 22px;
 }
-
 .text-primary{
-  color: #07021199;
+  color: rgba(7, 2, 17, 0.60);
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 48px;
 }
+
 
 /* banner section styles*/
 
@@ -52,21 +50,18 @@ main{
   margin-top: 50px ;
   height: 600px;
 }
-
 .banner-content{
   padding: 177px 0;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   border-radius: 16px;
   font-family: 'Merriweather', serif;
 }
-
 .banner-content>p{
   color: #FFF;
   text-align: center;
   font-size: 32px;
   margin-bottom: 16px ;
 }
-
 .banner-content h1{
   color: #FFF;
   text-align: center;
@@ -75,25 +70,24 @@ main{
   line-height: 95px; 
 }
 
+
 /* offer section styles */
+
 .offer-section{
   width: 60%;
   max-width: 800px;
   margin: auto;
   margin-top: 120px;
 }
-
 .offer-content{
   font-family: 'Inter', sans-serif;
   text-align: center;
 }
-
 .offer-content>h1{
   font-size: 88px;
   font-weight: 700;
   margin-bottom: 48px;
 }
-
 .offer-content h2{
   color: #070211;
   font-family: 'Inter', sans-serif;
@@ -106,6 +100,8 @@ main{
 }
 
 
+/* party section styles*/
+
 .party-section{
   background-image: url('../images/Vectorrr.png');
   background-repeat: no-repeat;
@@ -115,7 +111,6 @@ main{
   height: 600px;
   margin-top: 120px;
 }
-
 .party-container{
   font-family: 'Merriweather', serif;
   margin: auto;
@@ -137,9 +132,8 @@ main{
   letter-spacing: 7.04px;
   margin-bottom: 24px;
 }
-
 .party-content p{
-  color: #ffffffcc;
+  color: rgba(255, 255, 255, 0.80);
   font-family: 'Inter', sans-serif;;
   font-size: 18px;
   line-height: 30px; 
@@ -152,18 +146,18 @@ main{
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
-  margin-left: 14px;
-  padding: 15px 18px;
+  padding: 16px 32px;
   text-decoration: none;
 }
 .party-content a:hover{
   background-color: white;
   border-radius: 15px;
   color: #070211;
-
 }
 
+
 /* Event section styles */
+
 .event-section{
   padding: 100px 0 110px 0;
   margin-top: 120px;
@@ -181,7 +175,6 @@ main{
   font-weight: 600;
   line-height: 56px; 
 }
-
 .event-section button{
   padding: 16px 32px;
   color: #fff;
@@ -192,6 +185,10 @@ main{
   border: none;
   margin-top: 48px;
 }
+.event-section button{
+  cursor: pointer;
+}
+
 
 /* best offer section styles */
 
@@ -211,7 +208,6 @@ main{
   margin-bottom: 16px;
   margin-top: 39px;
 }
-
 .best-offer-col .celebration-img{
   padding: 34px;
   border: 15px solid #F00;
@@ -221,7 +217,9 @@ main{
   margin-bottom: 43px;
 }
 
+
 /* holiday sale section styles */
+
 .sale-section{
   margin-bottom:120px;
 }
@@ -232,7 +230,9 @@ main{
   text-align: center;
   margin-bottom: 64px;
 }
-
+.sale-content p{
+  font-weight: 500;
+}
 .holiday-sale-title{
   color: #070211;
   font-family: 'Merriweather', serif;
@@ -261,7 +261,6 @@ main{
   display: flex;
   margin-right: 5px;
 }
-
 .discount-img{
   position: relative; 
   width: 240px;
@@ -270,7 +269,9 @@ main{
   top: 100px; 
 }
 
+
 /* portfolio section styles */
+
 .portfolio-section{
   margin-bottom: 120px;
 }
@@ -289,11 +290,13 @@ main{
   border-radius: 16px;
 }
 .portfolio-img-row img:hover{
-  transform: scale(1.25);
+  transform: scale(1.15);
   box-shadow: 2px 2px 10px 5px #0702111e ;
   border-radius: 16px;
 }
 
+
+/* news letter section styles */
 
 .newsletter-section img{
   margin-bottom: 40px;
@@ -305,14 +308,13 @@ main{
   text-align: center;
 }
 form {
-  /* width: 49%; */
   max-width: 648px;
   margin: auto;
   display: flex;
 }
 form input{
   padding: 25px 0 25px 30px;
-  color: #0702114d;
+  color: rgba(255, 255, 255, 0.80);
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   border-radius: 50px 0 0 50px;
@@ -332,7 +334,9 @@ form button{
   cursor: pointer;
 }
 
+
 /* footer section styles */
+
 .footer-section{
   background: #070211;
   padding: 120px 0;
@@ -345,9 +349,6 @@ form button{
   font-weight: 500;
   line-height: 40px;
 }
-
-
-
 .footer-section div{
   max-width: 1320px;
   width: 82.5%;
@@ -357,15 +358,21 @@ form button{
   display: flex;
   justify-content: space-between;
 }
-
 .company-info .address-info{
   width: 70%;
 }
-
 .company-info .contact-info{
   width: 30%;
 }
-
+.contact-info div{
+ display: flex; 
+ align-items: center;
+ gap: 16px;
+}
+.contact-info div img{
+  width: 24px;
+  height: 24px;
+ }
 .footer-section .social-links{
   margin: 98px auto;
   display: flex;
