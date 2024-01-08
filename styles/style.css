@@ -8,7 +8,7 @@
   font-family: 'Merriweather', serif; */
 }
 /* shared styles */
-body{
+main{
   max-width: 1320px;
   width: 82.5%;
   margin: auto;
@@ -227,10 +227,19 @@ body{
   display: flex;
   gap: 24px ;
   margin-bottom: 24px;
-}
-.portfolio-img-row img{
   width: 100%;
 }
+.portfolio-img-row img{
+  width: 32%;
+  max-width: 424px;
+  border-radius: 16px;
+}
+.portfolio-img-row img:hover{
+  transform: scale(1.25);
+  box-shadow: 2px 2px 10px 5px #0702111e ;
+  border-radius: 16px;
+}
+
 
 .newsletter-section img{
   margin-bottom: 40px;
@@ -266,4 +275,53 @@ form button{
   font-size: 20px;
   font-weight: 600;
   border: none;
+  cursor: pointer;
+}
+
+/* footer section styles */
+.footer-section{
+  background: #070211;
+  padding: 120px 0;
+  margin-top: 120px;
+}
+.footer-section p{
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+
+
+.footer-section div{
+  max-width: 1320px;
+  width: 82.5%;
+  margin: auto;
+}
+.footer-section .company-info, .footer-section .footer-actions{
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-info .address-info{
+  width: 70%;
+}
+
+.company-info .contact-info{
+  width: 30%;
+}
+
+.footer-section .social-links{
+  margin: 98px auto;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.footer-section .social-links img:hover{
+  transform: scale(1.25);
+}
+.footer-actions a {
+  text-decoration: none;
+  color: #FFF;
 }
